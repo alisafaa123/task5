@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Container from './component/container/container';
 import LeftSlider from './component/LeftSlider/LeftSlider';
 import FlexScreen from './component/FlexScreen/FlexScreen';
-import HomeScreen from './component/HomeScreen/HomeScreen';
 import HeaderScreen from "./component/headerscreen/headerscreen";
-
+import StartScreen from "./component/HomeScreen/startScreen/startScreen";
 
 const App = () => {
   return (
@@ -18,7 +17,7 @@ const App = () => {
         <div className="rightside">
             <HeaderScreen title="Let’s Get started!" text="How do you plan to use this platform" />
             <Routes>
-              <Route path="/" element={ <HomeScreen/>} />
+              <Route path="/" element={<StartScreen />} /> 
             </Routes>
         </div>
         </FlexScreen>

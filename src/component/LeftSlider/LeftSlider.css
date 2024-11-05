@@ -1,7 +1,7 @@
 .leftside{
     background: #3C97AF;
     width: 100%;
-    height: 960px;
+    height: 720px;
     border-radius: 20px ;
     color: white;
     text-align: center;
@@ -27,11 +27,23 @@
 }
 img.line1{
     position: absolute;
-    bottom: -630px;
+    bottom: -400px;
     left: 0;
 }
 img.line2{
     position: absolute;
-    bottom: -640px;
+    bottom: -410px;
     left: 0;
 }
+@media screen and (max-width:1119px){
+    .leftside h1{
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+    .leftside p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
