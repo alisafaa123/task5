@@ -88,9 +88,20 @@ margin-bottom: 4px;
         align-items: center;
         padding: 25px;
         gap: 12px;
+        position: end;
+    }
+    .option button p{
+        font-size: 10px;
+        padding: 0;
     }
     .option button h1 , .option button p{
         text-align: start;
     }       
-
+    .btn{
+   position: relative;
+    }
+    .btn a , .btn span{
+        position: absolute;
+        bottom: -450px;
+        }
 }
