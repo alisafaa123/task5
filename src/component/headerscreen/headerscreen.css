@@ -3,11 +3,11 @@
     align-items: start;
     justify-content: space-between;
     width: 100%;
-    padding-top: 148px;
+    padding-top: 88px;
     gap: 6px;
 }
 .header .lines{
-    width: 195px;
+    width: 165px;
     height: 6px;
     border-radius: 10px;
     background-color: #EBEBEB;
