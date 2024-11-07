@@ -8,8 +8,6 @@ import  Phonepage from "./component/HomeScreen/phonepage/phonepage";
 import  VerifyCode from "./component/HomeScreen/VerifyCode/VerifyCode";
 import  InfoPage from "./component/HomeScreen/InfoPage/InfoPage";
 
-
-
 const App = () => {
   return (
     <Router>
