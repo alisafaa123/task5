@@ -1,0 +1,30 @@
+.optionInfoPage {
+    margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 15px;
+position: relative;
+}
+.optionInfoPage input{
+    border: none;
+    border: 1px solid var(--Color-Border-Neutral, rgba(235, 235, 235, 1));
+    width:  100%;
+    height:  48px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 8px ;
+}
+.optionInfoPage p{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+}
+.optionInfoPage button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 272px;
+    right: 0;
+}

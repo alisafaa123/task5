@@ -27,23 +27,35 @@
 }
 img.line1{
     position: absolute;
-    bottom: -400px;
+    bottom: -350px;
     left: 0;
+    width: 100%;
 }
 img.line2{
     position: absolute;
-    bottom: -410px;
+    bottom: -360px;
     left: 0;
+    width: 100%;
 }
 @media screen and (max-width:1119px){
     .leftside h1{
         font-size: 30px;
         line-height: 45px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .leftside p{
         font-size: 16px;
         line-height: 25px;
+        margin-bottom: 30px;
     }
 }
+@media screen and (max-width:945px){
+    .leftside {
+      display: none;
+    }
+}
+
+
+
+
 

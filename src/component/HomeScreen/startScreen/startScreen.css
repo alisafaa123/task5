@@ -37,10 +37,10 @@ margin-bottom: 4px;
 }
 .body .btnlink {
     display: block;
-    margin-top: 225px;
+    margin-top: 285px;
     width: 100%; 
     height: 50px;
-    border-radius: 8px;
+    border-radius: 16px;
     background: var(--Color-Disable-Primary, rgba(235, 235, 235, 1));
     text-align: center;
     line-height: 50px;
@@ -52,10 +52,45 @@ margin-bottom: 4px;
     margin-top: 285px;
     width: 100%; 
     height: 50px;
-    border-radius: 8px;
+    border-radius: 16px;
     background: var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
     text-align: center;
     line-height: 50px;
     color:white; 
     text-decoration: none;
+}
+@media screen and (max-width:1149px){
+    .option{
+        justify-content: center;
+    }
+    .option button{
+    width: 202px;
+    height: 165px;
+    
+    border-radius: 16px ;
+    }
+    .option button br{
+        display: none;
+    }
+}
+@media screen and (max-width:945px){
+    .option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .option button{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        gap: 12px;
+    }
+    .option button h1 , .option button p{
+        text-align: start;
+    }       
+
 }

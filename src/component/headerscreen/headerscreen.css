@@ -7,14 +7,23 @@
     gap: 6px;
 }
 .header .lines{
-    width: 194px;
+    width: 195px;
     height: 6px;
     border-radius: 10px;
     background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.header .lable1
+.header .active , .header .active1 , .header .active2
 {
     background-color: rgba(60, 151, 175, 1);
+}
+.header .active1{
+    border-radius: 8px 0px 0px 8px;
+}
+.header .active2{
+    border-radius: 0px 8px 8px 0px;
 }
 .fullHeader .text h1{
 font-family: Poppins;
@@ -33,3 +42,39 @@ margin-bottom: 10px;
     line-height: 27px;
     text-align: center;
 }
+@media screen and (max-width:1149px){
+    .header .lines{
+        width: 174px;
+    }
+    .fullHeader .text h1{
+        font-family: Poppins;
+        font-size: 32px;
+        line-height: 50px;
+        margin-top: 25px;
+        margin-bottom: 2px;
+        }
+        .fullHeader .text p{
+        color: #999999;
+        font-family: Poppins;
+        font-size: 16px;
+        }
+}
+@media screen and (max-width:1079px){
+    .header .lines{
+        width: 154px;
+    }
+}
+@media screen and (max-width:945px){
+    .header{
+        padding-top: 48px;
+        gap: 6px;
+    }
+        .fullHeader .text h1 ,.fullHeader .text p{
+            text-align: start;
+        }
+    }
+    @media screen and (max-width:520px){
+        .header .lines{
+            width: 100%;
+        }
+    }
