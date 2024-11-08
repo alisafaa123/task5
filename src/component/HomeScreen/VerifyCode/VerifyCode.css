@@ -35,15 +35,12 @@
     color: var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
     text-decoration: none;
 }
-/* Container for the OTP input fields */
 .otp-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     width: 100%;
 }
-
-/* Styling for each input box */
 .otp-input {
     margin-top: 20px;
     width: 50px !important;
@@ -69,8 +66,10 @@
 
 @media screen and (max-width: 400px){
     .otp-input {
-        width: 40px !important;
-        height: 40px !important;
+        width: 30px !important;
+        height: 30px !important;
     }
-    
+    .otp-container {
+        gap: 6px;
+    }
 }
