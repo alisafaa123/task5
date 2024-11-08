@@ -63,7 +63,14 @@
     color: #2196f3;
 }
 
-/* Placeholder styling */
 .otp-input::placeholder {
     color: #aaa;
+}
+
+@media screen and (max-width: 400px){
+    .otp-input {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
 }
