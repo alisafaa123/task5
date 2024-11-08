@@ -13,7 +13,7 @@ const Phonepage = () => {
         const value = e.target.value;
         if (!isNaN(value)) {
             setPhoneNumber(value);
-            setSubFlage(value.length > 0);  // Update SubFlage based on whether input has content
+            setSubFlage(value.length > 0); 
             setError('');
             if (value.length === 10) { 
                 setFlag(true); 

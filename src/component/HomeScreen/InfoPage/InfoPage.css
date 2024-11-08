@@ -1,18 +1,18 @@
 .optionInfoPage {
-    margin-top: 20px;
+    margin-top: 10px;
 display: flex;
 flex-direction: column;
 align-items: start;
-gap: 15px;
 position: relative;
 }
 .optionInfoPage input{
     border: none;
     border: 1px solid var(--Color-Border-Neutral, rgba(235, 235, 235, 1));
-    width:  100%;
-    height:  48px;
+    width:  calc(100% - 10px);
+    height:  44px;
     padding: 0px 0px 0px 10px;
     border-radius: 8px ;
+    margin-bottom: 10px;
 }
 .optionInfoPage p{
 font-family: Poppins;
@@ -25,6 +25,15 @@ text-align: left;
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 272px;
-    right: 0;
+    top: 204px;
+    right: 10px;
+}
+
+.information .active{
+    border: 1px solid var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
+
+}
+.information .btn{
+    width: 100%;
+    margin-top: -70px;
 }
