@@ -58,7 +58,7 @@ const VerifyCode = () => {
             </div>
              <div className="btn">
                 {Flage ? (
-                    <a href="VerifyCode" className="activeurLink">Verify</a>
+                    <a href="InfoPage" className="activeurLink">Verify</a>
                 ) : (
                     <span className="btnlink inactive">Verify</span>
                 )}
