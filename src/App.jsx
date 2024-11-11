@@ -41,6 +41,7 @@ const App = () => {
                   <Route path="/VerifyCode" element={<VerifyCode />} />
                   <Route path="/InfoPage" element={<InfoPage />} />
                 </Routes>
+                
               </div>
             </FlexScreen>
           </Container>
