@@ -7,7 +7,7 @@
     margin-right: 80px;
     gap: 10px;
 }
-.Midelinformation .createproject{
+.Midelinformation .createproject ,.Midelinformation .postsharing{
     position: relative;
     display: flex;
     align-items: center;
@@ -43,4 +43,16 @@
 }
 .Midelinformation .createproject .insertimg{
     position: absolute;
+    display: flex;
+    align-items: center;
+    right: 30px;
+}
+.Midelinformation .createproject .insertimg img{
+    width: 32px;
+}
+.Midelinformation .postsharing .sender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
