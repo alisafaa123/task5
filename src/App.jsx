@@ -9,12 +9,15 @@ import VerifyCode from "./component/HomeScreen/VerifyCode/VerifyCode";
 import InfoPage from "./component/HomeScreen/InfoPage/InfoPage";
 import Headerscreen from "./component/IndexPage/headerScreen/headerScreen";
 import BagroundColor from "./component/IndexPage/bagroundColor/bagroundColor";
+import FlexIndexpage from "./component/IndexPage/flexIndexpage/flexIndexpage";
+import AboutScreen from "./component/IndexPage/aboutScreen/aboutScreen";
+import DisplayfriendProject from "./component/IndexPage/displayfriend&project/displayfriendProject";
+import Midelinformation from "./component/IndexPage/midelinformation/midelinformation";
+
 
 const App = () => {
-  // Check the current path
   const currentPath = window.location.pathname;
 
-  // Conditional rendering based on the current URL path
   const isMainRoute = (
     currentPath === '/' ||
     currentPath === '/Phonepage' ||
@@ -44,15 +47,16 @@ const App = () => {
         </Router>
       ) : (
         <div >
-           <Router>
            <BagroundColor>
             <Container>
               <Headerscreen />
-                    <Routes>
-                    </Routes>
+                  <FlexIndexpage>
+                      <AboutScreen/>
+                      <Midelinformation/>
+                      <DisplayfriendProject/>
+                  </FlexIndexpage>
             </Container>
           </BagroundColor>
-        </Router>
         </div>
       )}
     </div>
