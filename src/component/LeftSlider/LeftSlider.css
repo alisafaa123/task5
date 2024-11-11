@@ -1,7 +1,7 @@
 .leftside{
     background: #3C97AF;
-    width: 100%;
-    height: 520px;
+    width: 700px;
+    height: 598px;
     border-radius: 20px ;
     color: white;
     text-align: center;
@@ -27,13 +27,13 @@
 }
 img.line1{
     position: absolute;
-    bottom: -250px;
+    bottom: -370px;
     left: 0;
     width: 100%;
 }
 img.line2{
     position: absolute;
-    bottom: -260px;
+    bottom: -380px;
     left: 0;
     width: 100%;
 }

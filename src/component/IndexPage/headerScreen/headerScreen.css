@@ -1,0 +1,89 @@
+.headerHomepage{
+    border-bottom: 1px solid var(--colors-neutral-100, #D9D9D9);
+    height: 70px;
+    background: var(--colors-primary-25, rgba(247, 253, 253, 1));
+
+}
+.headerHomepage .content{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerHomepage .content .logo img{
+    width: 149px;
+    height: 22px;
+}
+.headerHomepage .content .optionheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerHomepage .content .optionheader a{
+    text-decoration: none;
+    color: var(--Color-Text-Secondary, #999999);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 60px;
+}
+.headerHomepage .content .optionheader .activeoption{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Color-Text-Primary, #0A0A0A);
+    border-bottom: 2px solid var(--Color-Primary-Primary, #3C97AF)
+}
+.headerHomepage .content .optionheader a:hover{
+    color: #0A0A0A;
+}
+.headerHomepage .content .other{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 390px;
+}
+.headerHomepage .content .other button{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500%;
+    background-color: transparent;
+    border: none;
+}
+.headerHomepage .content .other .searchINput{
+    position: relative;
+}
+.headerHomepage .content .other .searchINput img{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+.headerHomepage .content .other .searchINput input{
+    box-shadow: 0px 2px 8px 0px #3C97AF14;
+    border: none;
+    width: 280px;
+    height: 48px;
+    padding: 0px var(--SpacingSpacing-4) 0px var(--SpacingSpacing-4);
+    border-radius: 15px;
+    padding-left: 48px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: none;      
+    outline: none;
+}
