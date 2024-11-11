@@ -17,18 +17,27 @@ const Midelinformation = () => {
                     <div className="postsharing">
                         <div className="sender">
                                 <div className="info">
-                                <div className="imgsender"></div>
-                                        <h1>Client Name</h1>
-                                        <p>Posted 2 hours ago  </p>
-                                </div>
-                                <div className="otheroptionPost">
-                                        <button>Available</button>
-                                        <button>
-                                                <img src={Dotes} alt="" />
-                                        </button>
+                                        <div className="imgsender"></div>
+                                              <div className="textuser">
+                                                  <h1>Client Name</h1>
+                                                  <p>Posted 2 hours ago  </p>
+                                              </div>
+                                 </div>
+                                 <div className="otheroptionPost">
+                                                <button className='Available'>Available</button>
+                                                <button className='Dotes'>
+                                                        <img src={Dotes} alt="" />
+                                                </button>
                                 </div>
                         </div>
+                        <div className="postDetails">
+                                 <div className="title">
+                                     <h1>Looking for Full-Sack Developer <br /> with experience +2 years</h1>
+                                     <p>to build a responsive, user-focused web application. Must be skilled in both front-end and back-end development...See more</p>
+                                 </div>
+                        </div>
                     </div>
+                   
             </div>
     );
 }

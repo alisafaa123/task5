@@ -50,9 +50,106 @@
 .Midelinformation .createproject .insertimg img{
     width: 32px;
 }
+.Midelinformation .postsharing{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    background: var(--Color-Background-White, rgba(255, 255, 255, 1));
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px 10px;
+    gap: 5px;
+}
 .Midelinformation .postsharing .sender{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+}
+.Midelinformation .postsharing .sender .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Midelinformation .postsharing .sender .info .imgsender{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--colors-Disable-Primary, rgba(235, 235, 235, 1));
+}
+.Midelinformation .postsharing .sender .info .textuser{
+    margin-left: 10px;
+}
+.Midelinformation .postsharing .sender .info .textuser h1{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.Midelinformation .postsharing .sender .otheroptionPost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.Midelinformation .postsharing .sender .info .textuser p{
+    color: var(--colors-Text-Secondary, rgba(128, 128, 128, 1));
+    font-family: Source Sans Pro;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.Midelinformation .postsharing .sender  button.Available{
+    background: var(--Colors-Success-100, rgba(221, 248, 231, 1));
+    width: 92px;
+    height: 35px;
+    border-radius: 15px;
+    color: var(--colors-Success-primary, rgba(77, 178, 81, 1));
+    font-family: Poppins;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.Midelinformation .postsharing .sender  button.Dotes{
+    background-color: transparent;
+    border: none;
+    align-items: center;
+}
+.Midelinformation .postsharing .postDetails{
+    margin-top: 15px;
+}
+.Midelinformation .postsharing .postDetails h1{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 15px;
+}
+.Midelinformation .postsharing .postDetails p{
+    color: var(--Color-Text-Secondary, rgba(153, 153, 153, 1));
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
