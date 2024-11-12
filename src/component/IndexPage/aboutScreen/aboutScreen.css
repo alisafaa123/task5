@@ -1,3 +1,6 @@
+.bodyOfindexpage{
+    position: relative;
+}
 .AboutScreen{
     display: flex;
     flex-direction: column;

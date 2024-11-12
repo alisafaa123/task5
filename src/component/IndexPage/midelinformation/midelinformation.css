@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: calc(100% - 742px);
-    margin-right: 80px;
+    width: 616px;
     gap: 20px;
 }
 .Midelinformation .createproject ,.Midelinformation .postsharing{

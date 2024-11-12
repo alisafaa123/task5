@@ -47,7 +47,7 @@ const App = () => {
           </Container>
         </Router>
       ) : (
-        <div >
+        <div className='bodyOfindexpage'>
            <BagroundColor>
             <Container>
               <Headerscreen />

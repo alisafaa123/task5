@@ -1,0 +1,157 @@
+.displayfriendProject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 424px;
+    gap: 20px;
+}
+.displayfriendProject .projetsName , .displayfriendProject .FreelancersList{
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 8px 0px rgba(33, 134, 142, 0.12);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.displayfriendProject .headOFproject{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.displayfriendProject .headOFproject h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.displayfriendProject .headOFproject a{
+    color: var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+}
+.displayfriendProject .projetsName .projectslist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid var(--Colors-Neutral-50, rgba(242, 242, 242, 1));
+    margin-bottom: 20px;
+}
+.displayfriendProject .projetsName .projectslist .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.displayfriendProject .projetsName .projectslist .item .infoproj{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.displayfriendProject .projetsName .projectslist .item .infoproj h1{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.displayfriendProject .projetsName .projectslist .item .infoproj p , .hideText p{
+    color: var(--Color-Text-Secondary, rgba(153, 153, 153, 1));
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.hideText p{
+    margin-bottom: 10px;
+}
+.displayfriendProject .projetsName .projectslist .item .infoproj .text{
+   margin-left: 10px;
+}
+.displayfriendProject .projetsName .projectslist .item button{
+    background-color: transparent;
+    border: none;
+}
+.projetsName .headOFproject{
+    margin-bottom: 30px;
+}
+.projetsName .headOFproject h1{
+    font-size: 18px;
+}
+.projetsName .userslist{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.projetsName .userslist .userinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.projetsName .userslist .userinfo .userdetails{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+.projetsName .userslist .userinfo .userdetails .text{
+    margin-left: 24px;
+}
+.projetsName .userslist .userinfo .userdetails h1{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.projetsName .userslist .userinfo .userdetails p{
+    color: var(--Color-Text-Secondary, rgba(153, 153, 153, 1));
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: -4px;
+}
+.projetsName .userslist .userinfo .rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+.projetsName .userslist .userinfo .rate p{
+    color: var(--Color-Text-Secondary, rgba(153, 153, 153, 1));
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
