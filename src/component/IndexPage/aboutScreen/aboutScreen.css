@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:  320px;
+    width:  23%;
     gap: 10px;
 }
 .AboutScreen .userInfo .photo img{
@@ -132,4 +132,20 @@ text-decoration-skip-ink: none;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+.aboutuser .titleabout button{
+    background-color: transparent;
+    border: none;
+}
+.aboutuser .description textarea{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #66666621;
+    background-color: rgba(141, 141, 141, 0.096);
+}
+.AboutScreen .userInfo input{
+    border: none;
+    text-align: center;
+    border: 1px solid #66666621;
+    margin-top: 6px;
 }

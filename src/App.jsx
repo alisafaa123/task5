@@ -13,7 +13,6 @@ import FlexIndexpage from "./component/IndexPage/flexIndexpage/flexIndexpage";
 import AboutScreen from "./component/IndexPage/aboutScreen/aboutScreen";
 import DisplayfriendProject from "./component/IndexPage/displayfriend&project/displayfriendProject";
 import Midelinformation from "./component/IndexPage/midelinformation/midelinformation";
-import NotificationScreen from "./component/IndexPage/notificationScreen/notificationScreen";
 
 
 const App = () => {
@@ -48,7 +47,7 @@ const App = () => {
           </Container>
         </Router>
       ) : (
-        <div className='bodyOfindexpage'>
+        <div >
            <BagroundColor>
             <Container>
               <Headerscreen />
@@ -56,7 +55,6 @@ const App = () => {
                       <AboutScreen/>
                       <Midelinformation/>
                       <DisplayfriendProject/>
-                      <NotificationScreen/>
                   </FlexIndexpage>
             </Container>
           </BagroundColor>

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 616px;
+    width: 43%;
     gap: 20px;
 }
 .Midelinformation .createproject ,.Midelinformation .postsharing{
@@ -182,3 +182,8 @@ text-decoration-skip-ink: none;
 align-items: center;
 
 }
+/* @media screen And (max-width: 1488px){
+    .Midelinformation{
+        width: calc(100% - 820px);
+    }
+} */

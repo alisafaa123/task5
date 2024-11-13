@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 424px;
+    width: 28%;
     gap: 20px;
 }
 .displayfriendProject .projetsName , .displayfriendProject .FreelancersList{

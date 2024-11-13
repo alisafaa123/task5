@@ -1,9 +1,18 @@
+import React, { useState } from 'react';
 import './headerScreen.css';
 import Logoimg from '../../../assets/Logoimg.svg';
 import Notifications from '../../../assets/notifications.svg';
 import Search from '../../../assets/search.svg';
+import Notifications2 from '../../../assets/notifications2.svg';
+import NotificationScreen from "../notificationScreen/notificationScreen";
+
 
 const HeaderScreenOfhomePage = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const handleOpenNotification = () => {
+        setIsVisible(!isVisible);
+    };
+
     return (
       <div className="headerHomepage">
            <div className="content">
@@ -21,13 +30,15 @@ const HeaderScreenOfhomePage = () => {
                  <input type="text" placeholder='search'/>
                </div>
                 <div className="notifiaction">
-                    <button>
-                        <img src={Notifications} alt="" />
+                    <button onClick={handleOpenNotification}>
+                        <img src={Notifications} alt="" style={{display: isVisible === false ? 'block' : 'none'}}/>
+                        <img src={Notifications2} alt="" style={{display: isVisible ? 'block' : 'none'}}/>
                     </button>
                 </div>
             </div>
            </div>
-      </div>
+           <NotificationScreen isVisible={isVisible} />
+        </div>
     );
 };
 

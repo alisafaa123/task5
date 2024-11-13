@@ -1,10 +1,83 @@
-.notificaionpagecode{
+.notificationPageCode{
     position: absolute;
     box-shadow: 1px 2px 8px 0px rgba(33, 134, 142, 0.25);
     background: var(--Color-Background-White, rgba(255, 255, 255, 1));
-    width: 583px;
-    height: 583px;
-    top: 76px;
-    right: 50px;
-    border-radius: 10px;
+    width: 563px;
+    top: 62px;
+    right: 14px;
+    border-radius: 8px;
+    z-index: 1;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px ;
+}
+.notificationPageCode h1{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 15px;
+}
+.notificationPageCode p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 15px;
+}
+.notificationPageCode p a{
+    color: var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-decoration: none;
+}
+.notificationPageCode .Today .item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    height: 90px;
+    border-bottom: 0.5px solid var(--Colors-Neutral-200, rgba(217, 217, 217, 1))
+}
+
+.notificationPageCode .Today .item p , .notificationPageCode .ThisWeek .item p{
+    width: 240px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+.notificationPageCode .Today .item p span , .notificationPageCode .ThisWeek .item p span{
+    color: var(--Color-Border-Neutral, rgba(191, 191, 191, 1));
+}
+.notificationPageCode .ThisWeek{
+    margin-top: 20px;
+}
+.notificationPageCode .ThisWeek .item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    height: 76px;
+}
+.notificationPageCode .ThisWeek .item p{
+    width: 198px;
 }
