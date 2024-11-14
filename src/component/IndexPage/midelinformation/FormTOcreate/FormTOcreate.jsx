@@ -20,6 +20,18 @@ const FormTOcreate = ({ FlageForm, onClose }) => {
                     <div className="tow"></div>
                     <div className="one"></div>
                 </div>
+                <div className="firstinsertForm">
+                    <p>Select Required Qualifications</p>
+                    <select name="" id="" >
+                        <option className='placeholderOfselecter' disabled selected hidden>
+                            Please select an option
+                        </option>
+                        <option value="">UIUX Designer</option>
+                        <option value="">Back-end</option>
+                        <option value="">Front-end</option>
+                        <option value="">Mobile app</option>
+                    </select>
+                </div>
             </div>
         </div>
     );
