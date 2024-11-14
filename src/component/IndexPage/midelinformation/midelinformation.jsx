@@ -122,8 +122,7 @@ const Midelinformation = () => {
                                  </div>
                         </div>
                     </div>
-                    {/* <CreateForm  style={{display: FlageForm ? 'none' : 'block'}}/> */}
-                    <CreateForm />
+                    <CreateForm  style={{display: FlageForm ? 'none' : 'block'}}/>
             </div>
     );
 }
