@@ -18,6 +18,8 @@
     background: var(--Color-Background-Primary, rgba(248, 251, 252, 1));
     box-shadow: 1px 2px 8px 0px rgba(33, 134, 142, 0.25);
     padding: 10px;
+    left: 360px;
+    top: 30px;
 }
 .FormtocreateProject .insertForm .title{
     width: 100%;
