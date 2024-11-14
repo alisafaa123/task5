@@ -40,24 +40,25 @@ const App = () => {
                   <Route path="/Phonepage" element={<Phonepage />} />
                   <Route path="/VerifyCode" element={<VerifyCode />} />
                   <Route path="/InfoPage" element={<InfoPage />} />
-                </Routes>
-                
+                </Routes> 
               </div>
             </FlexScreen>
           </Container>
         </Router>
       ) : (
         <div >
-           <BagroundColor>
-            <Container>
-              <Headerscreen />
-                  <FlexIndexpage>
-                      <AboutScreen/>
-                      <Midelinformation/>
-                      <DisplayfriendProject/>
-                  </FlexIndexpage>
-            </Container>
-          </BagroundColor>
+         <Router>
+            <BagroundColor>
+              <Container>
+                <Headerscreen />
+                    <FlexIndexpage>
+                        <AboutScreen/>
+                        <Midelinformation/>
+                        <DisplayfriendProject/>
+                    </FlexIndexpage>
+              </Container>
+            </BagroundColor>
+          </Router>
         </div>
       )}
     </div>

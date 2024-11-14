@@ -1,4 +1,5 @@
 .Midelinformation{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +24,7 @@
 .Midelinformation .createproject img{
     width: 75px;
 }
-.Midelinformation .createproject input{
+.Midelinformation .createproject button{
     border: none;
     border: 1px solid var(--Colors-Neutral-100, rgba(235, 235, 235, 1));
     width: 100%;
@@ -38,13 +39,15 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
+}
+.Midelinformation .createproject button:hover{
+    color: white ;
+    background-color:  var(--text-secondary, rgba(128, 128, 128, 1));
 }
 .Midelinformation .createproject .insertimg{
     position: absolute;
-    display: flex;
-    align-items: center;
     right: 30px;
+    top: 36px;
 }
 .Midelinformation .createproject .insertimg img{
     width: 32px;
@@ -180,7 +183,15 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 align-items: center;
-
+}
+.postDetails .title button{
+    color: var(--Color-Primary-Primary, rgba(60, 151, 175, 1));
+    border: none;
+    background-color: transparent;
+}
+.action .actionoption button{
+    background-color: transparent;
+    border: none;
 }
 /* @media screen And (max-width: 1488px){
     .Midelinformation{
