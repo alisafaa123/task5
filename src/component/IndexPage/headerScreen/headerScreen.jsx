@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './headerScreen.css';
-import Logoimg from '../../../assets/Logoimg.svg';
 import Notifications from '../../../assets/notifications.svg';
 import Search from '../../../assets/search.svg';
 import Notifications2 from '../../../assets/notifications2.svg';
 import NotificationScreen from "../notificationScreen/notificationScreen";
+import Logoimgnew from '../../../assets/logoimg.svg';
 
 
 const HeaderScreenOfhomePage = () => {
@@ -12,12 +12,11 @@ const HeaderScreenOfhomePage = () => {
     const handleOpenNotification = () => {
         setIsVisible(!isVisible);
     };
-
     return (
       <div className="headerHomepage">
            <div className="content">
            <div className="logo">
-                <img src={Logoimg} alt="" />
+                <img src={Logoimgnew} alt="" />
             </div>
             <div className="optionheader">
                 <a href="" className='activeoption'>Home</a>
