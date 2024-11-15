@@ -7,6 +7,7 @@ import Editiimg from '../../../../assets/editiimg.svg';
 
 const Leftside = () => {
   return (
+    
     <div className='LeftsideCode'>
         <div className="userTitle">
               <div className="user">
