@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Usering from '../../../assets/userimg.svg';
 import Star from '../../../assets/Star.svg';
+import Usering from '../../../assets/userimg.svg';
 import Editiimg from '../../../assets/editiimg.svg';
 import Adding from '../../../assets/adding.svg';
 import Sideline from '../../../assets/sideline.svg';
@@ -10,15 +10,9 @@ import './aboutScreen.css';
 
 const AboutScreen = () => {
     const [Flage, setFlage] = useState(false);
-    const [Flageofprof, setFlageofprof] = useState(false);
     const [UpdateAvout, setUpdateAvout] = useState("GreenTech Solutions Inc. Renewable Energy & Technology San Francisco, California, with operations in North America and Europe");
     const [Listpfuserinfo , setListpfuserinfo] = useState(["Mustafa Emad","5.0"]);
-    const Updateproinfo = () =>{
-        setFlageofprof(!Flageofprof);
-    }
-    const SaveUpdateproinfo = () =>{
-        setFlageofprof(!Flageofprof);
-    }
+
     const UpdateAbout = () =>{
         setFlage(!Flage);
     }
@@ -31,15 +25,12 @@ const AboutScreen = () => {
                         <div className="photo">
                             <img src={Usering} alt="" />
                         </div>
-                        <h1 style={{display: Flageofprof ? 'none' : 'block'}}>{Listpfuserinfo[0]}</h1>
-                        <input style={{display: Flageofprof ? 'block' : 'none'}} type="text" value={Listpfuserinfo[0]} onChange={(e) => setListpfuserinfo([e.target.value, Listpfuserinfo[1]])}/>
+                        <h1 >{Listpfuserinfo[0]}</h1>
                         <div className="rate">
-                            <img style={{display: Flageofprof ? 'none' : 'block'}} src={Star} alt="" />
-                            <p style={{display: Flageofprof ? 'none' : 'block'}}>{Listpfuserinfo[1]}</p>  
-                            <input style={{display: Flageofprof ? 'block' : 'none'}} type="text" value={Listpfuserinfo[1]} onChange={(e) => setListpfuserinfo([ Listpfuserinfo[0] ,e.target.value])}/>  
+                            <img src={Star} alt="" />
+                            <p >{Listpfuserinfo[1]}</p>  
                         </div>
-                        <button onClick={SaveUpdateproinfo} style={{display: Flageofprof ? 'none' : 'block'}}>Edit Profile</button>
-                        <button onClick={Updateproinfo} style={{display: Flageofprof  ? 'block' : 'none'}}>Save Edit</button>
+                        <a href='Userinfo'>Edit Profile</a>
                     </div>
                     <div className="aboutuser">
                         <div className="titleabout">

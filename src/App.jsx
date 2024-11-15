@@ -9,10 +9,8 @@ import VerifyCode from "./component/HomeScreen/VerifyCode/VerifyCode";
 import InfoPage from "./component/HomeScreen/InfoPage/InfoPage";
 import Headerscreen from "./component/IndexPage/headerScreen/headerScreen";
 import BagroundColor from "./component/IndexPage/bagroundColor/bagroundColor";
-import FlexIndexpage from "./component/IndexPage/flexIndexpage/flexIndexpage";
-import AboutScreen from "./component/IndexPage/aboutScreen/aboutScreen";
-import DisplayfriendProject from "./component/IndexPage/displayfriend&project/displayfriendProject";
-import Midelinformation from "./component/IndexPage/midelinformation/midelinformation";
+import GrupeIndexpage from "./component/IndexPage/grupeIndexpage";
+import Userinfopage from "./component/IndexPage/Userinfopage/Userinfopage";
 
 
 const App = () => {
@@ -51,11 +49,10 @@ const App = () => {
             <BagroundColor>
               <Container>
                 <Headerscreen />
-                    <FlexIndexpage>
-                        <AboutScreen/>
-                        <Midelinformation/>
-                        <DisplayfriendProject/>
-                    </FlexIndexpage>
+                <Routes>
+                  <Route path="/Home" element={<GrupeIndexpage />} />
+                  <Route path="/Userinfo" element={<Userinfopage />} />
+                </Routes> 
               </Container>
             </BagroundColor>
           </Router>

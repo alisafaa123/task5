@@ -1,0 +1,52 @@
+.LeftsideCode{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 750px;
+    box-shadow: 0px 2px 8px 0px rgba(60, 151, 175, 0.08);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 10px;
+}
+.LeftsideCode .userTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.8px solid var(--colors-Neutral-300, rgba(191, 191, 191, 0.753));
+    height: 190px;
+}
+.LeftsideCode .userTitle .user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.LeftsideCode .userTitle .user img{
+    width: 160px;
+}
+.LeftsideCode .userTitle .user .text h1{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -0.04em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.LeftsideCode .userTitle .user .text p{
+    color: var(--colors-Text-Secondary, rgba(128, 128, 128, 1));
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.LeftsideCode .userTitle button{
+    background-color: transparent;
+    border: none;
+}

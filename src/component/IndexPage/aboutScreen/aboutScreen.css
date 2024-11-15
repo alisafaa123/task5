@@ -46,7 +46,7 @@ margin-bottom: 10px;
     text-decoration-skip-ink: none;
     margin-bottom: 10px;
 }
-.AboutScreen .userInfo button{
+.AboutScreen .userInfo a{
     height:40px;
     width: 100%;
     border: none;
@@ -54,12 +54,16 @@ margin-bottom: 10px;
     background: var(--Colors-Primary-500, rgba(60, 151, 175, 1));
     color: white;
     font-family: Poppins;
+    text-decoration: none;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .AboutScreen .aboutuser ,.AboutScreen .projectHistory{
     padding: 15px 10px;
